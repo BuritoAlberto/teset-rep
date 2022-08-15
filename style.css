@@ -1,0 +1,44 @@
+body, html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-family: 'Rubik Burned', cursive;
+	color: orangered;
+	font-size: 4em;
+}
+
+hr{
+	margin: 20px auto;
+	color: #F05F44;
+	border: 3px solid #F05F44;
+	max-width: 65px;
+	opacity: 1;
+}
+
+.btn-sm{
+	padding: 1rem 2 rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: orangered ;
+	border-color: orangered;
+
+}
+
+.btn-success:hover{
+	background-color: #fd7e14;
+	border-color: #fd7e14;
+	border-width: 4px;
+}
+
+
+
+hr{
+	border-color: orangered;
+	border-width: 2px;
+	max-width: 65px;
+}
